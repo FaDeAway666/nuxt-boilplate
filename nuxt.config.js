@@ -21,14 +21,14 @@ export default {
       routes.push(...[
         {
           path: '/',
-          component: resolve(__dirname, '@/pages/index.vue'),
+          component: resolve(__dirname, '@/pages/index/index.vue'),
           meta: {
             title: '首页'
           }
         },
         {
           path: '/login',
-          component: resolve(__dirname, '@/pages/login.vue'),
+          component: resolve(__dirname, '@/pages/login/index.vue'),
           meta: {
             title: '登录'
           }
